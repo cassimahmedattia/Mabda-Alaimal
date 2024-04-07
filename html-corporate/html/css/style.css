@@ -80,6 +80,7 @@ h6 {
     line-height: normal;
     color: #111111;
     margin: 0
+    text-align:right
 }
 
 h1 {
@@ -142,6 +143,7 @@ p {
     font-weight: 300;
     font-size: 15px;
     line-height: 24px;
+    text-align: right;
 }
 
 a {
@@ -161,10 +163,18 @@ a,
     transition: all .3s ease-in-out;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
+img.lzy1Td{
+    display:inline-block;
+    height: 94px;
+    max-height:175px;
+    max-width:85px;
+    padding:8px 4px 8px 12px;
+    vertical-align:middle
+ }@media only screen and (max-width:479px){
+    .TlfmSc>.QTKDff{
+       max-width:calc(100vw - 56px)
+    }
+ }
 
  :focus {
     outline: 0;
@@ -264,6 +274,7 @@ button {
 .bg-light {
     background-color: transparent !important;
     padding: 20px 0px;
+    margin-top: -15px;
 }
 
 .logo {
@@ -278,7 +289,7 @@ button {
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding: 0px 20px;
-    font-size: 16px;
+    font-size: xx-large;
     color: #070707;
     text-transform: uppercase;
     font-weight: 500;
@@ -293,7 +304,8 @@ button {
 .navbar-light .navbar-nav .nav-link.active, 
 .navbar-light .navbar-nav .nav-link.show, 
 .navbar-light .navbar-nav .show>.nav-link {
-    color: #f5a738 ;
+    color: red ;
+    font-size:xx-large;
 }
 
 .login_bt {
@@ -330,6 +342,7 @@ button {
     width: 100%;
     float: left;
     padding: 90px 0px 90px 0px;
+    height: 600px;
 }
 
 .banner_taital_main {
@@ -346,6 +359,7 @@ button {
     padding-bottom: 0px;
     line-height: 70px;
     font-family: 'Poppins', sans-serif;
+    margin-top: 200px;
 }
 
 .banner_text {
@@ -360,7 +374,9 @@ button {
 .btn_main {
     width: 100%;
     display: flex;
+    margin-left: 100px;
 }
+
 
 .started_text {
     width: 180px;
@@ -380,12 +396,19 @@ button {
 }
 
 .started_text a:hover {
-    color: #ffffff;
+    color: red;
+    font-size: large;
     background-color: #060707;
 }
 
 .started_text.active a {
     color: #ffffff;
+    background-color: #060707;
+}
+
+.started_text.active a:hover {
+    color: red;
+    font-size: large;
     background-color: #060707;
 }
 
@@ -416,7 +439,8 @@ button {
 #my_slider .carousel-control-next:hover,
 #my_slider .carousel-control-prev:focus,
 #my_slider .carousel-control-prev:hover {
-    color: #ffffff;
+    color: red;
+    font-size: large;
     background-color: #060707;
 }
 
@@ -467,6 +491,7 @@ button {
     margin: 0px;
     color: #0f0f0f;
     padding-top: 150px;
+    text-align: right;
 }
 
 .readmore_bt {
@@ -746,12 +771,13 @@ button {
 }
 
 .border_0 {
-    width: 200px;
+    width: 900px;
     background-color: #f5a738 !important;
     height: 2px;
     top: 20px;
     position: relative;
     left: 20px;
+    align-items: right;
 }
 
 .contact_text {

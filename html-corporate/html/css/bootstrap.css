@@ -3848,7 +3848,7 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #e6e4de;
 }
 
 .nav-tabs .nav-item {
@@ -4127,6 +4127,13 @@ input[type="button"].btn-block {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
+
+  /*Start Some Additional Work*/
+  .nav-link{
+    font-weight: 25px bold;
+  }
+  /*End Additional Work*/
+
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
     -ms-flex-wrap: nowrap;
@@ -4301,7 +4308,7 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  color: red(255,0,0);
 }
 
 .navbar-dark .navbar-toggler {
